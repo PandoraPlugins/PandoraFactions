@@ -22,7 +22,7 @@ import org.bukkit.Bukkit;
  */
 
 public class CmdRoster extends FCommand {
-    private final Roster roster;
+    private Roster roster = null;
     private final CmdRosterView view;
     public CmdRoster() {
         super();
@@ -39,6 +39,7 @@ public class CmdRoster extends FCommand {
         this.addSubCommand(view);
 
 
+        roster = null;
     }
 
     @Override

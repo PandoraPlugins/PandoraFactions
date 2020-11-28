@@ -7,8 +7,8 @@ import org.bukkit.OfflinePlayer;
  */
 // todo: do this
 public class RosterPlayer {
-    private final OfflinePlayer player;
-    private final String factionID;
-    private final boolean active;
+    private final OfflinePlayer player = null;
+    private final String factionID = null;
+    private final boolean active = false;
 
 }
