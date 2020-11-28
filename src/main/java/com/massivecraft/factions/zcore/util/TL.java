@@ -1305,6 +1305,11 @@ public enum TL {
     WARMUPS_ALREADY("&cYou are already warming up."),
     WARMUPS_CANCELLED("&cYou have cancelled your warmup."),
 
+    /**
+     * Roster
+     */
+    ROSTER_COMMAND_DESCRIPTION("roster for active and inactive players"),
+
     PLACEHOLDERAPI_NULL("");
 
     public static SimpleDateFormat sdf;

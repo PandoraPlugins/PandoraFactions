@@ -19,6 +19,7 @@ import com.massivecraft.factions.cmd.relational.CmdRelationTruce;
 import com.massivecraft.factions.cmd.reserve.CmdReserve;
 import com.massivecraft.factions.cmd.roles.CmdDemote;
 import com.massivecraft.factions.cmd.roles.CmdPromote;
+import com.massivecraft.factions.cmd.roster.CmdRoster;
 import com.massivecraft.factions.cmd.tnt.CmdTnt;
 import com.massivecraft.factions.cmd.tnt.CmdTntFill;
 import com.massivecraft.factions.cmd.wild.CmdWild;
@@ -59,6 +60,7 @@ public class FCmdRoot extends FCommand implements CommandExecutor {
     public CmdDeinvite cmdDeinvite = new CmdDeinvite();
     public CmdDescription cmdDescription = new CmdDescription();
     public CmdDisband cmdDisband = new CmdDisband();
+    public CmdRoster cmdRoster = new CmdRoster();
     public CmdFocus cmdFocus = new CmdFocus();
     public CmdGrace cmdGrace = new CmdGrace();
     public CmdHelp cmdHelp = new CmdHelp();
