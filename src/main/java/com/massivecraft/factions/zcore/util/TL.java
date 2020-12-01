@@ -1309,6 +1309,7 @@ public enum TL {
      * Roster
      */
     ROSTER_COMMAND_DESCRIPTION("roster for active and inactive players"),
+    ROASTER_VIEW_DESCRIPTION("View the roaster of a faction"),
 
     PLACEHOLDERAPI_NULL("");
 

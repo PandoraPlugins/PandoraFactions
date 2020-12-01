@@ -22,8 +22,8 @@ public class CmdRosterView extends FCommand {
 
     @Override
     public TL getUsageTranslation() {
-        return null;
-        // todo: do this
+        return TL.ROASTER_VIEW_DESCRIPTION;
+        // did this
     }
 
     public CmdRosterView(Roster roster) {
